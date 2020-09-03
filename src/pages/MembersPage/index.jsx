@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navbar from '../../components/Navbar';
+import Member from '../../components/Member';
 
 import './styles.css';
 
@@ -14,23 +15,35 @@ export default function MembersPage() {
       <Navbar />
 
       <section className="content-body">
-        <div className="member">
-          <img src={profileDani} alt="" className="member-img" />
-          <p className="member-name">Daniel Wojcickoski</p>
-          <p className="member-description">Técnico em Mecatrônica<br/>IFSul - Campus Charqueadas</p>
-        </div>
+        <Member
+          image={profileDani}
+          name="Daniel Wojcickoski"
+          formation="Técnico em Mecatrônica"
+          institution="IFSul - Campus Charqueadas"
+          instagram="denieu.u"
+          email="dswojcickoski@gmail.com"
+          linkedin="https://www.linkedin.com/in/daniel-wojcickoski-77356b191/"
+        />
 
-        <div className="member">
-          <img src={profileGusta} alt="" className="member-img" />
-          <p className="member-name">Gustavo Diersmann</p>
-          <p className="member-description">Técnico em Mecatrônica<br/>IFSul - Campus Charqueadas</p>
-        </div>
+        <Member
+          image={profileGusta}
+          name="Gustavo Diersmann"
+          formation="Técnico em Mecatrônica"
+          institution="IFSul - Campus Charqueadas"
+          instagram="gustavodiersmann_"
+          email="gustavolifestory@gmail.com"
+          linkedin="https://www.linkedin.com/in/gustavo-diersmann-556624198/"
+        />
 
-        <div className="member">
-          <img src={profileRafa} alt="" className="member-img" />
-          <p className="member-name">Rafael Vargas</p>
-          <p className="member-description">Eng. Controle e Automação<br/>UFRGS</p>
-        </div>
+        <Member
+          image={profileRafa}
+          name="Rafael Vargas"
+          formation="Eng. Controle e Automação"
+          institution="UFRGS"
+          instagram="rafaobrs"
+          email="rafaobrs@gmail.com"
+          linkedin="https://www.linkedin.com/in/rafael-marquetto-vargas-a0020098/"
+        />
       </section>
     </div >
   );

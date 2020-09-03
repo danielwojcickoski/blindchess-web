@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar';
 
 import './styles.css';
 
-export default function Homepage() {
+export default function ResumePage() {
   return (
     <div className="container resume-page-content">
       <Navbar />

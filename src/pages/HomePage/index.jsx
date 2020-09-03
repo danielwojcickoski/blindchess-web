@@ -6,7 +6,7 @@ import Navbar from '../../components/Navbar';
 
 import './styles.css';
 
-export default function Homepage() {
+export default function HomePage() {
   return (
     <div className="home-page-content container">
       <Navbar />

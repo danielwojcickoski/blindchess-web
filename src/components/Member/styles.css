@@ -1,0 +1,34 @@
+.content-body .member {
+    width: 25%;
+    min-width: 200px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-body .member img {
+    width: 60%;
+    margin-bottom: 15px;
+    
+    border: 0.5px solid var(--main-border-color);
+    border-radius: 100%;
+}
+
+.member .member-name {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.member .member-description {
+    margin-bottom: 10px;
+}
+
+.member .member-contact {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

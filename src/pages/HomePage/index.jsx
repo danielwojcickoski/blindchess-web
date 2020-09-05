@@ -13,7 +13,7 @@ export default function HomePage() {
 
       <section className="content-body">
         <div className="home-video">
-          <iframe src="https://www.youtube.com/embed/01_nMeqNm1g?start=0" width="560" height="315" frameborder="0" title="yt-video"></iframe>
+          <iframe src="https://www.youtube.com/embed/01_nMeqNm1g?start=0" width="708" height="400" frameborder="0" title="yt-video"></iframe>
         </div>
 
         <div className="home-text">

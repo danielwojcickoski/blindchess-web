@@ -32,8 +32,8 @@ export default function HomePage() {
             </p>
           </article>
 
-          <Link className="resume-link text" to="/resume" >
-            Clique aqui para ver o resumo completo
+          <Link className="resume-link text" to="/project" >
+            Clique aqui para ver mais sobre o projeto
             <FiArrowRight size={16} color="#000" />
           </Link>
         </div>

@@ -43,7 +43,7 @@ export default function ContactPage() {
               formation="Técnico em Mecatrônica"
               institution="IFSul - Campus Charqueadas"
               instagram="gustavodiersmann_"
-              email="gustavolifestory@gmail.com"
+              email="gustavodier21@gmail.com"
               linkedin="https://www.linkedin.com/in/gustavo-diersmann-556624198/"
             />
 

@@ -23,10 +23,6 @@ export default function Navbar() {
           Imagens
         </Link>
 
-        <Link className="navbar-link" to="/members">
-          Membros
-        </Link>
-
         <Link className="navbar-link" to="/contact">
           Contato
         </Link>

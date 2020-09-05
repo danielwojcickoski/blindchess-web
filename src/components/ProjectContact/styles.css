@@ -1,4 +1,4 @@
-.member {
+.project {
     width: 25%;
     min-width: 200px;
 
@@ -8,46 +8,52 @@
     align-items: center;
 }
 
-.member img {
+.project img {
     width: 60%;
     margin-bottom: 15px;
     
     border: 0.5px solid var(--main-border-color);
     border-radius: 100%;
+
+    background-color: #000;
 }
 
-.member .member-name {
+.project .project-name {
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 18px;
 }
 
-.member .member-description {
+.project .project-email {
     margin-bottom: 10px;
 }
 
-.member .member-contact {
+.project .project-contact {
     width: 40%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 1000px){
-    .member {
+    .project {
         width: 100%;
         margin-bottom: 40px;
     }
-    .member img {
+
+    .project img {
         width: 40%;
     }
-    .member .member-contact {  
+
+    .project .project-contact {  
         width: 25%;
     }
-    .member .member-name {
+
+    .project .project-name {
         font-size: 35px;
     }
-    .member .member-description {
+
+    .project .project-email {
         font-size: 30px;
     }
 }

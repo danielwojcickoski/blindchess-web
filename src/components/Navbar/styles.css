@@ -18,7 +18,7 @@
 }
 
 .navbar nav {
-    width: 26vw;
+    width: 22vw;
     height: 100%;
     min-width: 350px;
     max-width: 450px;
@@ -48,4 +48,27 @@
 
 .navbar nav .navbar-button:hover {
     background-color: #cf3e12;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .navbar {
+        height: 9vh;
+        flex-direction: column;
+    } 
+    .navbar img {
+        background-color: var(--main-bg-color);
+        height: 4vh;
+    }
+    .navbar nav {
+        width: 100vw;
+        max-width: 100vw;
+
+        justify-content: space-around;
+    }
+
+    .navbar nav .navbar-link {
+        margin: 0;
+        font-size: 30px;
+    }
 }

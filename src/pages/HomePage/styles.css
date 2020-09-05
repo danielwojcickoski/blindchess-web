@@ -1,6 +1,6 @@
 .home-page-content {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .home-page-content .content-body {
@@ -38,4 +38,25 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1000px) {
+    .home-page-content .content-body {  
+        margin-top: 12vh;  
+        flex-direction: column;
+    }
+    .home-page-content .content-body .home-video iframe {
+        width: 797px;
+        height: 450px;
+    }
+    .home-page-content .content-body .home-text {
+        width: 796px;
+    }
+    .home-page-content .content-body .home-text p {
+        font-size: 35px;
+    }
+    .home-page-content .content-body .home-text .resume-link {
+        margin-top: 25px;
+        font-size: 30px;
+    }
 }

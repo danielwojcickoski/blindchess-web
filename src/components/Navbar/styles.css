@@ -71,6 +71,7 @@
     .navbar img {
         background-color: var(--main-bg-color);
         height: 4vh;
+        min-height: 40px;
     }
     .navbar nav {
         width: 100vw;

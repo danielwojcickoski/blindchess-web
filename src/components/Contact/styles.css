@@ -1,4 +1,4 @@
-.project {
+.contact {
     width: 25%;
     min-width: 200px;
 
@@ -8,52 +8,48 @@
     align-items: center;
 }
 
-.project img {
+.contact img {
     width: 60%;
     margin-bottom: 15px;
     
+    background-color: var(--sec-bg-color);
+
     border: 0.5px solid var(--main-border-color);
     border-radius: 100%;
-
-    background-color: #000;
 }
 
-.project .project-name {
+.contact .contact-name {
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 18px;
 }
 
-.project .project-email {
+.contact .contact-description {
     margin-bottom: 10px;
 }
 
-.project .project-contact {
+.contact .contact-links {
     width: 40%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 @media only screen and (max-width: 1000px){
-    .project {
+    .contact {
         width: 100%;
         margin-bottom: 40px;
     }
-
-    .project img {
+    .contact img {
         width: 40%;
     }
-
-    .project .project-contact {  
-        width: 25%;
-    }
-
-    .project .project-name {
+    .contact .contact-name {
         font-size: 35px;
     }
-
-    .project .project-email {
+    .contact .contact-description {
         font-size: 30px;
+    }
+    .contact .contact-links {  
+        width: 25%;
     }
 }

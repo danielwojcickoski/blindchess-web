@@ -22,6 +22,7 @@
 .navbar img {
     height: 6.4vh;
     transform: scale(0.8);
+rm    margin: 0 -15px;
 }
 
 .navbar nav {

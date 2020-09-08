@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navbar from '../../components/Navbar';
+import Contact from '../../components/Contact';
 
 import './styles.css';
 
@@ -8,7 +9,6 @@ import profileBc from '../../assets/images/logoSquare.png';
 import profileDani from '../../assets/images/profile-dani.jpeg';
 import profileGusta from '../../assets/images/profile-gusta.jpeg';
 import profileRafa from '../../assets/images/profile-rafa.jpeg';
-import Contact from '../../components/Contact';
 
 export default function ContactPage() {
   return (

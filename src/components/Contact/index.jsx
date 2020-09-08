@@ -9,7 +9,7 @@ import './styles.css';
 export default function Contact(props) {
   return (
     <div className="contact">
-      <img src={props.image} alt="" className="contact-img" />
+      <img src={props.image} alt={props.name} className="contact-img" />
       <p className="contact-name">{props.name}</p>
       <p className="contact-description">{props.children}</p>
       <div className="contact-links">

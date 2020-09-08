@@ -1,0 +1,84 @@
+.resume-page-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-page-content .content-body {
+    width: 100%;
+    height: 100%;
+    min-height: 94vh;
+    margin-top: 7vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-page-content .content-body .section-chapter {
+    width: 60%;
+}
+
+.resume-page-content .content-body .section-chapter .chapter-title{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.resume-page-content .content-body .section-chapter .chapter-article{  
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-page-content .content-body .section-chapter .chapter-article p{
+    font-size: 14px;
+}
+
+.resume-page-content .content-body .section-chapter .chapter-article .chapter-image {
+    width: 100%;
+    margin-top: 15px;
+
+    text-indent: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-page-content .content-body .section-chapter .chapter-article .chapter-image img{
+    width: 40%;
+}
+
+.resume-page-content .content-body .section-chapter .chapter-article .chapter-image .chapter-image-desc{
+    margin-top: 7px;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px){
+    .resume-page-content .content-body {
+        width: 100%;
+        margin-top: 12vh;
+    }
+    .resume-page-content .content-body .section-chapter {
+        width: 90%;
+    }
+    .resume-page-content .content-body .section-chapter .chapter-title{
+        font-size: 35px;
+    } 
+    .resume-page-content .content-body .section-chapter .chapter-article p{
+        font-size: 30px;
+    }
+    .resume-page-content .content-body .section-chapter .chapter-article .chapter-image img{
+        width: 50%;
+    }
+    .resume-page-content .content-body .section-chapter .chapter-article .chapter-image .chapter-image-desc{
+        font-size: 24px;
+    }
+}

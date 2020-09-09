@@ -42,7 +42,7 @@
 
 @media only screen and (max-width: 1350px) {
     .home-page-content .content-body {  
-        margin-top: 12vh;  
+        margin-top: 120px;  
         flex-direction: column;
     }
     .home-page-content .content-body .home-video iframe {

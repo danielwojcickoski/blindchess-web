@@ -5,7 +5,7 @@
 }
 
 .contact-page-content .content-body {
-    width: 70%;
+    width: 80%;
     height: 100%;
     min-height: 94vh;
     margin-top: 6vh;
@@ -28,10 +28,16 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 1350px){
+    .contact-page-content .content-body {
+        width: 100%;
+    }  
+}
+
 @media only screen and (max-width: 1000px){
     .contact-page-content .content-body {
         width: 100%;
-        margin-top: 12vh;
+        margin-top: 120px;
     }
     .contact-page-content .content-body h1{
         font-size: 40px;

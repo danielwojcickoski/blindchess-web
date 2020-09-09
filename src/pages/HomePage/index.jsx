@@ -34,7 +34,7 @@ export default function HomePage() {
 
           <Link className="resume-link text" to="/project" >
             Clique aqui para ver mais sobre o projeto
-            <FiArrowRight size={16} color="#000" />
+            <FiArrowRight size={16} color="#000"  className="icon"/>
           </Link>
         </div>
       </section>

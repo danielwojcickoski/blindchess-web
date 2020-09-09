@@ -40,6 +40,11 @@
     justify-content: flex-end;
 }
 
+.home-page-content .content-body .home-text .resume-link .icon {
+    height: 40%;
+    width: auto;
+}
+
 @media only screen and (max-width: 1350px) {
     .home-page-content .content-body {  
         margin-top: 120px;  
@@ -59,5 +64,8 @@
     .home-page-content .content-body .home-text .resume-link {
         margin-top: 25px;
         font-size: 30px;
+    }
+    .home-page-content .content-body .home-text .resume-link .icon {
+        height: 55%;
     }
 }
